@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-wrapper {
+    width: 300px;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+    /* border: 1px solid black; */
+    box-shadow: 0 0 46px -8px rgba(0, 0, 0, 0.671);
+}
+
+.main-wrapper * {
+    position: absolute;
+}
+
+.shutter {
+    top: -164px;
+}
+.hand {
+    left: -148px;
+}
+
+.black-shade {
+    width: 300px;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.671);
+    opacity: 0;
+}
+
+.text {
+    opacity: 0;
+}
+
+.frame-2-bg, .red-line, .frame-2-text, .btn, .logo {
+    opacity: 0;
+}
+
+
+.red-line {
+    top: -50px;
+}
+.logo {
+    left: 50px;
+}
+.btn {
+    left: -50px;
+}
+.frame-2-text {
+    top: 50px;
+}
